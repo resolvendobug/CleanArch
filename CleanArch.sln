@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "Cle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.IoC", "CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{F83D3F4B-9754-4F5F-BDBA-25914CE3ACA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Tests", "CleanArch.Domain.Tests\CleanArch.Domain.Tests.csproj", "{4F1FB95D-65A1-4C87-B266-164987A2891D}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,5 +88,17 @@ Global
 		{F83D3F4B-9754-4F5F-BDBA-25914CE3ACA5}.Release|x64.Build.0 = Release|Any CPU
 		{F83D3F4B-9754-4F5F-BDBA-25914CE3ACA5}.Release|x86.ActiveCfg = Release|Any CPU
 		{F83D3F4B-9754-4F5F-BDBA-25914CE3ACA5}.Release|x86.Build.0 = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|x64.Build.0 = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Debug|x86.Build.0 = Debug|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|x64.Build.0 = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|x86.ActiveCfg = Release|Any CPU
+		{4F1FB95D-65A1-4C87-B266-164987A2891D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
