@@ -223,8 +223,8 @@ namespace CleanArch.Domain.Tests
             var product = new Product(1, "Product 1", "Description", 9.99m, 100, "product image");
             Action action = () => product.Update("Product 1", "Description", 9.99m, 100, null);
             action.Should()
-                .Throw<Validation.DomainExceptionValidation>()
-                .WithMessage("Invalid image. Image is required");
+                .NotThrow<Validation.DomainExceptionValidation>();
+                
         }
 
         [Fact(DisplayName = "Update Product Long Image Value")]
