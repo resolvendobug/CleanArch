@@ -1,4 +1,9 @@
+using CleanArch.Infra.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Add custom services
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
